@@ -24,3 +24,4 @@ friends_lower = [name.lower() for name in friends]
 
 if friend.lower() in friends:
     print(f"{friend.title} is one of your friends")
+m
