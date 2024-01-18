@@ -16,3 +16,17 @@ for status in cars:
         continue # it will jump back to the start of the loop
     print(f"This car is {status}")
     print("shipping new car to customer")
+
+my_friends = {
+    'Jose': 6,
+    'Rolf': 12,
+    'Anne': 6
+}
+
+do_i_know = 'Anne'
+
+if do_i_know in my_friends:
+    print(f'I know {do_i_know}')
+
+
+
