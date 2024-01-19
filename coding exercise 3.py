@@ -25,4 +25,4 @@ if matched_numbers > len(top_player["numbers"].intersection(lottery_numbers)):
 
 winnings = 100 **
 len(top_player["numbers"].intersection(lottery_numbers))
-    print(f"{top_player ["name"]} won {winnings}")
+print(f"{top_player ["name"], won {winnings}")
